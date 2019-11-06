@@ -2,6 +2,10 @@
 Bug Bounty Clipboard    
 Cross platform browser extension (tested on FireFox and Chromium)
 
+**Quickly insert your favourite payloads to clipboard!**
+
+*[https://twitter.com/vavkamil/status/1191418672834850817](https://twitter.com/vavkamil/status/1191418672834850817)*
+
 ### Credits
 
 Payloads from [PayloadsAllTheThings](https://github.com/cyberheartmi9/PayloadsAllTheThings)
