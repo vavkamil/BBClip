@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BBClip ~ Bug Bounty Clipboard</title>
+<script src="popup.js"></script>
+</head>
+<body>
+
+<strong>BBClip</strong> ~ Bug Bounty Clipboard
+<div class="github"><a href="https://github.com/vavkamil" target="_blank">Github</a></div>
+
+<br><br>
+
+<nav id="menu">
+	<ul class="parent-menu">
+		<li><a href="#">Key</a>
+			<ul>
+				<li><a href="#">Value</a></li>
+				<li><a href="#">Value</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Key</a>
+			<ul>
+				<li><a href="#">Value</a></li>
+				<li><a href="#">Value</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+
+
+<style>
+p, ul, li, div, nav {
+	padding:0; margin:0;
+}
+body {
+	font-family:Calibri;
+	background-color: #000;
+	color:#fff;
+}
+#menu {
+	width:400px;
+	height:300px;
+	overflow: auto;
+	position:relative;
+	z-index:2;
+}
+.parent-menu {
+	background-color: #0c8fff;
+	min-width:200px;
+	float:left;
+}
+#menu ul {
+	list-style-type:none;
+}
+#menu ul li a {
+	padding:10px 15px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+#menu ul li a:hover {
+	background-color:#007ee9;
+}
+
+
+#menu ul li:hover > ul {
+	left: 200px;
+	-webkit-transition: left 200ms ease-in;
+	-moz-transition: left 200ms ease-in;
+	-ms-transition: left 200ms ease-in;
+	transition: left 200ms ease-in;
+}
+#menu ul li > ul {
+	position: absolute; 
+	background-color: #333;
+	top: 0;
+	left: -200px;
+	min-width: 200px;
+	z-index: -1;
+	height: 100%;
+	-webkit-transition: left 200ms ease-in;
+	-moz-transition: left 200ms ease-in;
+	-ms-transition: left 200ms ease-in;
+	transition: left 200ms ease-in;
+}
+#menu ul li > ul li a:hover {
+	background-color:#2e2e2e;
+}
+div.github, div.github a{
+  text-align: right;
+  float:right;
+  font-style: italic;
+  font-size: 12px;
+  color:#fff;
+  text-decoration: none;
+}
+</style>
+
+</body>
+</html>
