@@ -17,4 +17,13 @@ Payloads from [PayloadsAllTheThings](https://github.com/cyberheartmi9/PayloadsAl
 
 ### Usage
 
-Just import `web-ext-artifacts/bbclip-1.0.zip` to the browser
+* Edit the payloads in `popup/popup.js`
+* Import `web-ext-artifacts/bbclip-1.0.zip` to the browser
+
+## TODO
+
+* [ ] Add options to add/edit/delete payloads
+* [ ] Add better design (CSS)
+* [ ] Add import/export feature
+* [ ] Shortcuts?!
+* [ ] New readme with screenshot/gif
